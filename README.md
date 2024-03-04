@@ -114,8 +114,4 @@ if(txId != null) {
 ## Demo
 
 You can check some demos here:
-- Simple web with plain HTML.
-
-
-
-
+- [Simple web with plain HTML](https://monetizado.github.io/demosmonetizado/demo.html).
