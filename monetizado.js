@@ -5,6 +5,8 @@ const networks = {
 	"botanix:testnet" : "0xd0876600e82CCAa4aA0ab0Cd8bEa9c74F5b46De3"
 }
 
+const networksEIP1559 = ["bnb","opbnb","base"];
+
 const monetizadoAbi = [
 	{
 		"inputs": [],
@@ -498,10 +500,16 @@ window[monetizadoProp] = {
         const monetizationTag = document.querySelector('link[rel="monetizado"]');
         const parts = monetizationTag.href.split("://");
 
+		
+
         const contractNetwork = networks[parts[0]];
+
+		const networkName = parts[0].split(':')[0];
         const creatorParts = parts[1].split("/");
         const creatorId = creatorParts[0];
         const sequenceId = creatorParts[1];
+
+		const isEIP1559 = networksEIP1559.includes(networkName);
 
         var contractPublic = await getContract(Web3,contractNetwork,account);
 
@@ -509,19 +517,26 @@ window[monetizadoProp] = {
             const query = contractPublic.methods.payAccess(creatorId,sequenceId);
             const encodedABI = query.encodeABI();
             const gasPrice = Web3.utils.toHex(await Web3.eth.getGasPrice());
+
+			const paramsForEIP1559 = isEIP1559 ? {
+				from: account, 
+				to: contractNetwork,
+				data: encodedABI,
+				value: Web3.utils.numberToHex(amount),
+				gasLimit: '0x5208',
+				maxPriorityFeePerGas: gasPrice, 
+				maxFeePerGas: gasPrice
+			  } : { from: account, 
+				to: contractNetwork,
+				data: encodedABI,
+				value: Web3.utils.numberToHex(amount),
+				gasLimit: '0x5208'};
+
             var payContentId = await ethereum
             .request({
               method: 'eth_sendTransaction',
               params: [
-                {
-                  from: account, 
-                  to: contractNetwork,
-                  data: encodedABI,
-                  value: Web3.utils.numberToHex(amount),
-                  gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
-                  maxPriorityFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
-                  maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
-                },
+                paramsForEIP1559
               ],
             });
 
