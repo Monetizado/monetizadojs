@@ -22,7 +22,7 @@ MonetizadoJS is the library that allows you to implement [Monetizado](https://gi
 
 **<link rel="monetizado" href="network://creator_address/sequence_id" />**
 
-- network: It is the network where the content has been protected. At the moment, only **opbnb:testnet** and **bnb:testnet** are available.
+- network: It is the network where the content has been protected. At the moment, only **opbnb:testnet**, **bnb:testnet**, **base:testnet** and **botanix:testnet** are available.
 - creator_address: It is the address (0x..) of the content creator. It can be your address if you are the creator.
 - sequence_id: It is the Id that the contract was terminated when you specified the new protected content (starts from 0 onwards, it is numeric).
 
