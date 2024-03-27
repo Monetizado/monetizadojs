@@ -1,7 +1,8 @@
 const networks = {
     "opbnb:testnet":"0x0702B45d590372b5456BeC39e13a46c00Fc8F733",
     "bnb:testnet":"0x13cbEaAaBcC8a126dF2f7b1aA955251574191231",
-	"base:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168"
+	"base:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
+	"botanix:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168"
 }
 
 const monetizadoAbi = [
