@@ -22,7 +22,7 @@ MonetizadoJS is the library that allows you to implement [Monetizado](https://gi
 
 **<link rel="monetizado" href="network://creator_address/sequence_id" />**
 
-- network: It is the network where the content has been protected. At the moment, only **opbnb:testnet**, **bnb:testnet**, **base:testnet** and **botanix:testnet** are available.
+- network: It is the network where the content has been protected.
 - creator_address: It is the address (0x..) of the content creator. It can be your address if you are the creator.
 - sequence_id: It is the Id that the contract was terminated when you specified the new protected content (starts from 0 onwards, it is numeric).
 
@@ -33,6 +33,16 @@ For example:
 
 The previous example means that the content is protected (by Id 0), by the creator (0xda3ec0b8bddd2e8bdedede3333fbaf938fcc18c5), and that combination is the payment must be made to unlock it.
 5. Use the window.monetizado property (instructions below).
+
+## Available Networks 
+For the Monetizado link tag, you have the following list of testnet networks:
+- **arbitrum:sepolia**
+- **opbnb:testnet**
+- **bnb:testnet**
+- **base:testnet**
+- **botanix:testnet**
+
+If you need the Smart Contracts Ids for those networks, you can get them [here](https://github.com/Monetizado/Contracts/blob/main/README.md#contract-ids).
 
 ## window.monetizado
 
