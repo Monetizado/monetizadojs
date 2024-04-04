@@ -37,10 +37,11 @@ The previous example means that the content is protected (by Id 0), by the creat
 ## Available Networks 
 For the Monetizado link tag, you have the following list of testnet networks:
 - **arbitrum:sepolia**
-- **opbnb:testnet**
-- **bnb:testnet**
 - **base:testnet**
+- **berachain:testnet**
+- **bnb:testnet**
 - **botanix:testnet**
+- **opbnb:testnet**
 
 If you need the Smart Contracts Ids for those networks, you can get them [here](https://github.com/Monetizado/Contracts/blob/main/README.md#contract-ids).
 
