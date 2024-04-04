@@ -3,7 +3,8 @@ const networks = {
     "bnb:testnet":"0x13cbEaAaBcC8a126dF2f7b1aA955251574191231",
 	"base:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"botanix:testnet" : "0xd0876600e82CCAa4aA0ab0Cd8bEa9c74F5b46De3",
-	"arbitrum:sepolia" : "0x3258814758AC48fE9c0869d43Df8F13aD0cB2A25"
+	"arbitrum:sepolia" : "0x3258814758AC48fE9c0869d43Df8F13aD0cB2A25",
+	"berachain:testnet" : "0x4FCA17c99Cd6eA508AD64D75Daa6a5BeBfdd5916"
 }
 
 const networksEIP1559 = ["bnb","opbnb","base"];
