@@ -42,6 +42,7 @@ For the Monetizado link tag, you have the following list of testnet networks:
 - **bnb:testnet**
 - **botanix:testnet**
 - **filecoin:testnet**
+- **mode:testnet**
 - **opbnb:testnet**
 
 If you need the Smart Contracts Ids for those networks, you can get them [here](https://github.com/Monetizado/Contracts/blob/main/README.md#contract-ids).
