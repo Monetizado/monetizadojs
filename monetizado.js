@@ -5,7 +5,8 @@ const networks = {
 	"botanix:testnet" : "0xd0876600e82CCAa4aA0ab0Cd8bEa9c74F5b46De3",
 	"arbitrum:sepolia" : "0x3258814758AC48fE9c0869d43Df8F13aD0cB2A25",
 	"berachain:testnet" : "0x4FCA17c99Cd6eA508AD64D75Daa6a5BeBfdd5916",
-	"filecoin:testnet" : "0x6388418CfEa921C323b91B173E10D7f8f1193680"
+	"filecoin:testnet" : "0x6388418CfEa921C323b91B173E10D7f8f1193680",
+	"mode:testnet" : "0xf0F90a236c860FB79DbBA4Ad9Dd62b714268BD21"
 }
 
 const networksEIP1559 = ["bnb","opbnb","base"];
