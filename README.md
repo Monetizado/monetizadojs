@@ -31,7 +31,7 @@ For example:
 <link rel="monetizado" href="opbnb:testnet://0xda3ec0b8bddd2e8bdedede3333fbaf938fcc18c5/0" />
 ```
 
-The previous example means that the content is protected (by Id 0), by the creator (0xda3ec0b8bddd2e8bdedede3333fbaf938fcc18c5), and that combination is the payment must be made to unlock it.
+The previous example means that the content is protected (by Id 0), by the creator (0xda3ec0b8bddd2e8bdedede3333fbaf938fcc18c5 for example), and that combination is the payment must be made to unlock it.
 5. Use the window.monetizado property (instructions below).
 
 ## Available Networks 
@@ -41,6 +41,7 @@ For the Monetizado link tag, you have the following list of testnet networks:
 - **berachain:testnet**
 - **bnb:testnet**
 - **botanix:testnet**
+- **etherlink:testnet**
 - **filecoin:testnet**
 - **mode:testnet**
 - **opbnb:testnet**
