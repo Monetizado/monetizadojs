@@ -44,6 +44,7 @@ For the Monetizado link tag, you have the following list of testnet networks:
 - **etherlink:testnet**
 - **filecoin:testnet**
 - **mode:testnet**
+- **morph:testnet**
 - **opbnb:testnet**
 - **shardeum:testnet**
 
