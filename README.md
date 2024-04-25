@@ -47,6 +47,7 @@ For the Monetizado link tag, you have the following list of testnet networks:
 - **morph:testnet**
 - **opbnb:testnet**
 - **shardeum:testnet**
+- **scroll:testnet**
 
 If you need the Smart Contracts Ids for those networks, you can get them [here](https://github.com/Monetizado/Contracts/blob/main/README.md#contract-ids).
 
