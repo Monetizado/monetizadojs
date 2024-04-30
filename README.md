@@ -39,6 +39,7 @@ For the Monetizado link tag, you have the following list of testnet networks:
 - **arbitrum:sepolia**
 - **base:testnet**
 - **berachain:testnet**
+- **bittorrent:testnet**
 - **bnb:testnet**
 - **botanix:testnet**
 - **etherlink:testnet**
@@ -112,6 +113,36 @@ if(content != null) {
 }
 ```
 
+### window.monetizado.getAmountForWithdraw
+
+This function returns information about the available amount to withdraw from the content creator. This function receives as a parameter a Web3 object with the provider.
+
+Example: 
+```
+var web3 = new Web3(new Web3.providers.HttpProvider("https://opbnb-testnet-rpc.bnbchain.org"));
+// Connect user with Metamask for example
+...
+var amountWithdraw = await window.monetizado.getAmountForWithdraw(web3);
+if(amountWithdraw != null) {
+  // Show available amount
+}
+```
+
+### window.monetizado.getContentList
+
+This function returns the list of all creations by the creator specified in the link tag. This function receives as a parameter a Web3 object with the provider.
+
+Example: 
+```
+var web3 = new Web3(new Web3.providers.HttpProvider("https://opbnb-testnet-rpc.bnbchain.org"));
+// Connect user with Metamask for example
+...
+var creationList = await window.monetizado.getContentList(web3);
+if(creationList != null) {
+  // Show list
+}
+```
+
 ### window.monetizado.payContent
 
 This method allows the current user (visitor) to pay for the content using their Web3 wallet (tested with Metamask for now)
@@ -128,7 +159,74 @@ if(txId != null) {
 }
 ```
 
-## Demo
+### window.monetizado.getPlatformFee
+
+This function returns the platform fee in percentage. This function receives as a parameter a Web3 object with the provider.
+
+Example: 
+```
+var web3 = new Web3(new Web3.providers.HttpProvider("https://opbnb-testnet-rpc.bnbchain.org"));
+// Connect user with Metamask for example
+...
+var platformFee = await window.monetizado.getPlatformFee(web3);
+if(platformFee != null) {
+  // Show list
+}
+```
+
+### window.monetizado.unprotectContent
+
+This method releases the content so that anyone can access it and not pay for it (for example for particular events or situations)(only executable by the content owner). This function receives as a parameter a Web3 object with the provider.
+
+Example: 
+```
+var web3 = new Web3(new Web3.providers.HttpProvider("https://opbnb-testnet-rpc.bnbchain.org"));
+// Connect user with Metamask for example
+...
+await window.monetizado.unprotectContent(web3);
+// reload and show the content
+```
+
+### window.monetizado.protectContent
+
+This method again restricts the content so that only people who pay for it can access it (only executable by the content owner). This function receives as a parameter a Web3 object with the provider.
+
+Example: 
+```
+var web3 = new Web3(new Web3.providers.HttpProvider("https://opbnb-testnet-rpc.bnbchain.org"));
+// Connect user with Metamask for example
+...
+await window.monetizado.protectContent(web3);
+// reload and pay for the content
+```
+
+### window.monetizado.changeAccessCost
+
+This method changes the access cost to access the content (only executable by the content owner). This function receives as parameters a Web3 object with the provider and the new amount/cost.
+
+Example: 
+```
+var web3 = new Web3(new Web3.providers.HttpProvider("https://opbnb-testnet-rpc.bnbchain.org"));
+// Connect user with Metamask for example
+...
+await window.monetizado.changeAccessCost(web3, newCost);
+// reload and verify to pay
+```
+
+### window.monetizado.withdrawMoneyFromContent
+
+This method allows the content creator to claim the available money paid by users. This function receives as parameters a Web3 object with the provider and the new amount to claim/withdraw.
+
+Example: 
+```
+var web3 = new Web3(new Web3.providers.HttpProvider("https://opbnb-testnet-rpc.bnbchain.org"));
+// Connect user with Metamask for example
+...
+await window.monetizado.withdrawMoneyFromContent(web3, amount);
+// reload and verify in the wallet
+```
+
+## Demos
 
 You can check some demos here:
-- [Simple web with plain HTML](https://monetizado.github.io/demosmonetizado/demo.html).
+- [Simple web with plain HTML in different chains](https://github.com/Monetizado/demosmonetizado).
