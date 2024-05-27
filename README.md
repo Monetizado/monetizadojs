@@ -17,7 +17,7 @@ MonetizadoJS is the library that allows you to implement [Monetizado](https://gi
 <script src="./monetizado.js"></script>
 ```
 
-3. [Create the protected content using the smart contract](https://github.com/Monetizado/Contracts)
+3. [Create the protected content using the smart contract](https://github.com/Monetizado/Contracts) or in the [Manager](https://monetizado.github.io/manager/)
 4. Add a link tag in the head of the HTML code of your page, with the attribute "rel" with the value "monetized" and in href it follows the following structure:
 
 **<link rel="monetizado" href="network://creator_address/sequence_id" />**
