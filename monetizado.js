@@ -13,6 +13,7 @@ const networks = {
 	"monetichain:testnet" : "0xd0876600e82CCAa4aA0ab0Cd8bEa9c74F5b46De3",
 	"morph:testnet":"0x86f5304600627e7897AaAfAD39853e3D18E71B43",
 	"opbnb:testnet":"0x0702B45d590372b5456BeC39e13a46c00Fc8F733",
+	"rootstock:testnet":"0xd0876600e82CCAa4aA0ab0Cd8bEa9c74F5b46De3",
 	"scroll:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"shardeum:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"taraxa:testnet":"0x4da05dda2f0586327e956548fd3e88a508ba2168"
