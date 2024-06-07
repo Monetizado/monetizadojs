@@ -48,6 +48,7 @@ For the Monetizado link tag, you have the following list of testnet networks:
 - **mode:testnet**
 - **morph:testnet**
 - **opbnb:testnet**
+- **rootstock:testnet**
 - **scroll:testnet**
 - **shardeum:testnet**
 - **taraxa:testnet**
