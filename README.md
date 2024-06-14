@@ -35,7 +35,9 @@ The previous example means that the content is protected (by Id 0), by the creat
 5. Use the window.monetizado property (instructions below).
 
 ## Available Networks 
-For the Monetizado link tag, you have the following list of testnet networks:
+For the Monetizado link tag, you have the following list of networks:
+
+### Testnet
 - **arbitrum:sepolia**
 - **base:testnet**
 - **berachain:testnet**
@@ -52,6 +54,9 @@ For the Monetizado link tag, you have the following list of testnet networks:
 - **scroll:testnet**
 - **shardeum:testnet**
 - **taraxa:testnet**
+
+### Mainnet
+- **bittorrent:mainnet**
 
 If you need the Smart Contracts Ids for those networks, you can get them [here](https://github.com/Monetizado/Contracts/blob/main/README.md#contract-ids).
 
