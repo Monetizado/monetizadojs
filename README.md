@@ -44,6 +44,7 @@ For the Monetizado link tag, you have the following list of networks:
 - **bittorrent:testnet**
 - **bnb:testnet**
 - **botanix:testnet**
+- **camp:testnet**
 - **etherlink:testnet**
 - **filecoin:testnet**
 - **lisk:testnet**
