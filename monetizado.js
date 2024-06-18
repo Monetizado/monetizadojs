@@ -16,6 +16,7 @@ const networks = {
 	"rootstock:testnet":"0xd0876600e82CCAa4aA0ab0Cd8bEa9c74F5b46De3",
 	"scroll:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"shardeum:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
+	"shido:testnet":"0x7D3789722F4d94A38852E794bf8C1f6cd53B47aB",
 	"taraxa:testnet":"0x4da05dda2f0586327e956548fd3e88a508ba2168",
 	// Mainnets
 	"bittorrent:mainnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168"
