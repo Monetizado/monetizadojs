@@ -47,6 +47,7 @@ For the Monetizado link tag, you have the following list of networks:
 - **camp:testnetv1**
 - **etherlink:testnet**
 - **filecoin:testnet**
+- **linea:testnet**
 - **lisk:testnet**
 - **meter:testnet**
 - **mode:testnet**
