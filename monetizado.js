@@ -15,7 +15,7 @@ const networks = {
 	"mode:testnet" : "0xf0F90a236c860FB79DbBA4Ad9Dd62b714268BD21",
 	"morph:testnet":"0x86f5304600627e7897AaAfAD39853e3D18E71B43",
 	"opbnb:testnet":"0x0702B45d590372b5456BeC39e13a46c00Fc8F733",
-	"rootstock:testnet":"0xd0876600e82CCAa4aA0ab0Cd8bEa9c74F5b46De3",
+	"rootstock:testnet":"0xf0F90a236c860FB79DbBA4Ad9Dd62b714268BD21",
 	"scroll:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"shardeum:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"shido:testnet":"0x7D3789722F4d94A38852E794bf8C1f6cd53B47aB",
