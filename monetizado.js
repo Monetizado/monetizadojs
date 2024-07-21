@@ -8,6 +8,7 @@ const networks = {
 	"camp:testnetv1" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"celo:testnet" : "0x230e12e3954DBC5f0b2C8459607055f64730e6d4",
 	"chiliz:testnet" : "0xd0876600e82CCAa4aA0ab0Cd8bEa9c74F5b46De3",
+	"core:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"etherlink:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"filecoin:testnet" : "0x6388418CfEa921C323b91B173E10D7f8f1193680",
 	"linea:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",

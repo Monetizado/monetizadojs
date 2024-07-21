@@ -47,6 +47,7 @@ For the Monetizado link tag, you have the following list of networks:
 - **camp:testnetv1**
 - **celo:testnet**
 - **chiliz:testnet**
+- **core:testnet**
 - **etherlink:testnet**
 - **filecoin:testnet**
 - **linea:testnet**
