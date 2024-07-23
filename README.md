@@ -61,6 +61,7 @@ For the Monetizado link tag, you have the following list of networks:
 - **shardeum:testnet**
 - **shido:testnet**
 - **taraxa:testnet**
+- **theta:testnet**
 
 ### Mainnet
 - **bittorrent:mainnet**
