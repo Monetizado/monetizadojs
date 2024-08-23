@@ -52,6 +52,7 @@ For the Monetizado link tag, you have the following list of networks:
 - **etherlink:testnet**
 - **filecoin:testnet**
 - **fuse:testnet**
+- **kaia:testnet**
 - **kii:testnet**
 - **linea:testnet**
 - **lisk:testnet**

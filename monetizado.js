@@ -13,6 +13,7 @@ const networks = {
 	"etherlink:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"filecoin:testnet" : "0x6388418CfEa921C323b91B173E10D7f8f1193680",
 	"fuse:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
+	"kaia:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"kii:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"linea:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"lisk:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
