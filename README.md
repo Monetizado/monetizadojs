@@ -59,6 +59,7 @@ For the Monetizado link tag, you have the following list of networks:
 - **meter:testnet**
 - **mode:testnet**
 - **morph:testnet**
+- **neox:testnet**
 - **opbnb:testnet**
 - **pwrbtc:testnet**
 - **rootstock:testnet**
