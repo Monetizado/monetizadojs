@@ -1,5 +1,6 @@
 const networks = {
 	"arbitrum:sepolia" : "0x3258814758AC48fE9c0869d43Df8F13aD0cB2A25",
+	"aurora:testnet" : "0xF0E21Cc4EA162a96e6B52685fb6dFa86E4Ae9fb6",
 	"base:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"berachain:testnet" : "0x4FCA17c99Cd6eA508AD64D75Daa6a5BeBfdd5916",
 	"bittorrent:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",

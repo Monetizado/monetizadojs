@@ -39,6 +39,7 @@ For the Monetizado link tag, you have the following list of networks:
 
 ### Testnet
 - **arbitrum:sepolia**
+- **aurora:testnet**
 - **base:testnet**
 - **berachain:testnet**
 - **bittorrent:testnet**
