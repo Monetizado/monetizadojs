@@ -70,6 +70,7 @@ For the Monetizado link tag, you have the following list of networks:
 - **shardeum:testnet**
 - **shardeum:testnet**
 - **shido:testnet**
+- **taiko:testnet**
 - **taraxa:testnet**
 - **theta:testnet**
 - **weavevm:testnet**

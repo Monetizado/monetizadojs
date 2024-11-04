@@ -31,6 +31,7 @@ const networks = {
 	"shardeum:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"shibarium:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"shido:testnet":"0x7D3789722F4d94A38852E794bf8C1f6cd53B47aB",
+	"taiko:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"taraxa:testnet":"0x4da05dda2f0586327e956548fd3e88a508ba2168",
 	"theta:testnet":"0x50f57850ccf3ebe7f19993facbb4caa4d10cc4ee",
 	"weavevm:testnet":"0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
