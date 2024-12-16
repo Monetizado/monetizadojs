@@ -19,6 +19,7 @@ const networks = {
 	"kii:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"linea:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
 	"lisk:testnet" : "0x4dA05ddA2F0586327E956548fd3E88a508ba2168",
+	"mantle:testnet" : "0xd0876600e82CCAa4aA0ab0Cd8bEa9c74F5b46De3",
 	"meter:testnet" : "0x923720cA17B2e071542FE7419394EA717fdC1b98",
 	"mode:testnet" : "0xf0F90a236c860FB79DbBA4Ad9Dd62b714268BD21",
 	"moonbeam:testnet" : "0x5E400Dc6B6C816e4aF77b2286Ae5f114d8429005",
