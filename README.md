@@ -50,6 +50,7 @@ For the Monetizado link tag, you have the following list of networks:
 - **celo:testnet**
 - **chiliz:testnet**
 - **core:testnet**
+- **duckchain:testnet**
 - **educhain:testnet**
 - **etherlink:testnet**
 - **filecoin:testnet**
